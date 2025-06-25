@@ -51,9 +51,33 @@ namespace exercice
                     }
                 }
             };*/
-        static void Main(string[] args)
-        {
 
-        }
-    }
-};
+        // Exercice 2 : Fonction avec paramètres et retour
+        /*internal class Program
+        {
+            static int Additionner(int a, int b)
+            {
+                int resultat = a + b;
+                return resultat;
+            }
+
+            static bool EstPair(int nombre)
+            {
+                return (nombre % 2 == 0);
+            }
+            static void Main(string[] args)
+            {
+                Console.WriteLine("Saisissez la 1ère valeur");
+
+                int a = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Saisissez la 2nd valeur");
+
+                int b = int.Parse(Console.ReadLine());
+
+                Console.WriteLine($" résultat :{Additionner(a, b)}");
+                Console.WriteLine($"Le résultat est pair:{EstPair(Additionner(a, b))}");
+            }
+
+        };*/
+    
