@@ -1,4 +1,5 @@
-﻿using System.Xml.Linq;
+﻿using System.Security.Cryptography;
+using System.Xml.Linq;
 
 namespace exercice
 {
@@ -115,8 +116,24 @@ namespace exercice
            }
        };*/
 
+  /*      //Exercice 7 : Découverte des lambdas
         static void Main(string[] args)
         {
+            Func<int, int> triple = nombre => nombre * 3;
+            Console.WriteLine(triple(10));
+            List<int> nombres = new List<int> { 2, 5, 10 };
+             nombres.RemoveAll(x => x % 2 != 0);
+            Console.WriteLine(string.Join(" - ", nombres));
         }
+      
     }
+};*/
+
+static void Main(string[] args)
+{
+
+}
+
+}
+
 };
